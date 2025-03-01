@@ -15,3 +15,5 @@ Currently, two official plugins are available:
 - Service code gọi API
 - Assets lưu ảnh và font chữ
 - Link FIGMA : https://www.figma.com/design/z49G38I4sTbAwCx1Ybopqm/E-Learning-Site-(Community)?node-id=10-358&t=UJ6EU1NXyoCi4eWf-0
+
+- CSS TailwindCSS , Style Components
