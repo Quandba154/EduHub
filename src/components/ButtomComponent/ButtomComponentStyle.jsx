@@ -17,13 +17,8 @@ export const WrapperButtonShare = styled.button`
   background-color: #e9956b;
   color: black;
   border: 2px solid black;
-  height: 40px;
-  padding: 8px 20px;
-  gap: 8px;
   transition: box-shadow 0.2s ease-in-out, transform 0.1s ease-in-out;
-
   box-shadow: 3px 3px 0px black;
-
   &:hover {
     filter: brightness(1.1);
     box-shadow: 6px 6px 0px black;
@@ -35,3 +30,9 @@ export const WrapperButtonShare = styled.button`
   }
 `;
 
+export const WrapperButtonText = styled.span`
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  color: #000;
+  font-weight: bold;
+`;

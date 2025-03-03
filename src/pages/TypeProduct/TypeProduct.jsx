@@ -11,7 +11,7 @@ function TypeProduct(props) {
   return (
     <WrapperTypeProductBoxChildItem>
       <img src={imgUrl} className="rounded-[20px]" alt="math"></img>
-      {name}
+      <span className="ml-[22px]">{name}</span>
     </WrapperTypeProductBoxChildItem>
   );
 }

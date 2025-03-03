@@ -16,7 +16,7 @@ export const WrapperTypeProductBox = styled.div`
   }
 
   @media (min-width: 1024px) {
-    padding-top: 7rem; /* lg:pt-28 */
+    padding-top: 2rem; /* lg:pt-28 */
   }
 `;
 
@@ -27,12 +27,12 @@ export const WrapperTypeProductBoxChild = styled.div`
   align-items: center;
   white-space: nowrap;
   animation: infinite-scroll 10s linear infinite; /* animate-infinite-scroll */
-  width: max-content; /* Chiều rộng của container tự động thay đổi theo tổng chiều rộng của các item */
+  width: 100; /* Chiều rộng của container tự động thay đổi theo tổng chiều rộng của các item */
 
   /* Keyframes for infinite scroll */
   @keyframes infinite-scroll {
     0% {
-      transform: translateX(0); /* Bắt đầu từ vị trí ban đầu */
+      transform: translateX(0);
     }
     50% {
       transform: translateX(-50%); /* Đi đến 50% khoảng cách */
@@ -61,10 +61,11 @@ export const WrapperTypeProductBoxChildItem = styled.div`
   line-height: inherit;
   letter-spacing: inherit;
   color: inherit;
-  padding: 0;
-  width: 600px;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
   img {
-    max-width: 20%; /* Kích thước ảnh nhỏ */
+    max-width: 60%; /* Kích thước ảnh nhỏ */
     height: auto; /* Đảm bảo ảnh không bị biến dạng */
     transition: transform 0.3s ease; /* Thêm hiệu ứng chuyển đổi khi hover */
   }

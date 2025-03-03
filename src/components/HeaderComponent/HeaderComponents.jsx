@@ -1,4 +1,4 @@
-import { Col } from "antd";
+import { Col, Badge } from "antd";
 import {
   WrapperHeader,
   WrapperHeaderText,
@@ -49,7 +49,9 @@ function HeaderComponents() {
             </div>
           </WrapperHeaderAccount>
           <div className="text-4xl flex items-center gap-3">
-            <ShoppingCartOutlined color="#000" />
+            <Badge count={4} size="small">
+              <ShoppingCartOutlined color="#000" style={{ fontSize: "24px" }} />
+            </Badge>
             <WrapperHeaderTextSmall>Giỏ Hàng</WrapperHeaderTextSmall>
           </div>
         </Col>
