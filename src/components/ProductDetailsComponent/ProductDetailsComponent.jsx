@@ -24,7 +24,10 @@ function ProductDetailsComponent() {
         borderRadius: "14px",
       }}
     >
-      <Col span={10}>
+      <Col
+        span={10}
+        style={{ borderRight: "1px solid #e5e5e5", paddingRight: "10px" }}
+      >
         <Image
           src={imgProduct}
           width={400}
@@ -75,7 +78,7 @@ function ProductDetailsComponent() {
           </WrapperStyleColImage>
         </Row>
       </Col>
-      <Col span={14}>
+      <Col span={14} className="pl-[10px]">
         <div className="flex row justify-between">
           <div>
             <WrapperStyleNameProduct>Sophie Johnson</WrapperStyleNameProduct>
@@ -137,6 +140,27 @@ function ProductDetailsComponent() {
             </p>
           </div>
         </WrapperStylePriceProduct>
+        <div className="flex row gap-5">
+          <WrapperButtonShare
+            style={{
+              padding: "24px 80px",
+              fontSize: "18px",
+              fontWeight: "bold",
+            }}
+          >
+            Chọn Mua
+          </WrapperButtonShare>
+          <WrapperButtonShare
+            style={{
+              padding: "24px 40px",
+              fontSize: "18px",
+              fontWeight: "bold",
+              backgroundColor: "#fff",
+            }}
+          >
+            Mua Trước Trả Sau
+          </WrapperButtonShare>
+        </div>
       </Col>
     </Row>
   );

@@ -34,4 +34,3 @@ export const WrapperButtonShare = styled.button`
     box-shadow: 3px 3px 0px black;
   }
 `;
-
